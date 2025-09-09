@@ -1,0 +1,137 @@
+.Admin-layout {
+  display: flex;
+  
+}
+
+.Admin {
+  width: 250px;
+  background-color: #f4f5fa;
+  padding: 20px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  width: 141px;
+  height: 24.08px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.menu-label,
+.menu-others {
+  font-weight: 400;
+  line-height: 11px;
+  color: #082431;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 50%;
+}
+
+.menu-others {
+  margin-top: 50px;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 60%;
+  transition: background-color 0.3s, color 0.2s;
+  border-radius: 8px;
+}
+
+.menu-item:hover {
+  color: #5A6ACF;
+  opacity: 100%;
+  background-color: rgba(90, 106, 207, 0.1);
+}
+
+.menu-item.active {
+  background-color: #707FDD;
+  border-radius: 5px;
+  width: 200px;
+  color: white;
+  opacity: 10%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.navbarcontainer {
+  flex-grow: 1;
+  padding: 20px 20px 20px 266px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 32px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 40px 8px 12px;
+  border: none;
+  background: #ccc;
+}
+
+.search-button {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  pointer-events: auto;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  top: 90%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: stroke;
+  opacity: 0.7;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-icon {
+  width: 24px;
+  height: 24px;
+}

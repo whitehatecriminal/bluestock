@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: Poppins;
+}
+.partner{
+    display: flex;
+    gap: 90px;
+}

@@ -1,0 +1,78 @@
+.universal{
+    background: #F6F5F5;
+}
+
+.outercard {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 120px; */
+    
+}
+
+.card {
+    margin: 12px 10px;
+    width: 400px;
+    height: 300px;
+    background: #FFFFFF;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardHeader img {
+    width: 110px;
+    height: 47px;
+    
+}
+
+.cardHeader h1 {
+    width: 220px;
+    height: 36px;
+    color: #414BEA;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.ipodetails {
+    display: flex;
+    justify-content: space-evenly;
+    color: #5A5858;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.ipodetail {
+    display: flex;
+    justify-content: space-evenly;
+    color: #000000;
+    font-weight: 600;
+}
+
+.RHPButton {
+    display: flex;
+    gap: 12px;
+    border-radius: 10px;
+    width: 220px;
+    height: 43px;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.RHPButton button {
+    width: 105px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.RHP {
+    color: #414BEA;
+    border: 1px solid #414BEA;
+}
+
+.DRHP{
+    color: #FFFFFF;
+    font-weight: 500;
+    background: #F05537;
+}

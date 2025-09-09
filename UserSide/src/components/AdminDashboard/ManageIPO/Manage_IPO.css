@@ -1,0 +1,96 @@
+.Manage {
+    margin-left: 256px;
+}
+
+.upcoming {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming button {
+    border: 0.5px solid #DDE4F0;
+    width: 109px;
+    height: 32px;
+    border-radius: 5px;
+    border: 0.5px solid #DDE4F0;
+    background: #FBFCFE;
+    color: #5A6ACF;
+    font-weight: 500;
+    box-shadow: 0px 2px 1px 0px #4048520D;
+}
+
+.table {
+    margin-top: 16px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    width: auto;
+
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.update {
+    width: 92px;
+    height: 35px;
+    background: #624DE3;
+    border-radius: 8px;
+    padding: 8px 12px 8px 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.deleteview button {
+    width: 24px;
+}
+
+.eye {
+    margin-left: 25px;
+}
+
+.even {
+    background: #F7F6FE;
+}
+
+.odd {
+    background: #FFFFFF;
+}
+
+.status {
+    width: 100px;
+    height: 31px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    min-width: 90px;
+    border: 2px solid black;
+}
+
+.status.ongoing {
+    border: 1px solid #41BC63;
+    color: #41BC63;
+    background-color: #98e2ad2e;
+}
+
+.status.newlisted {
+    border: 1px solid #BC4141;
+    color: #BC4141;
+    background-color: #bc414110;
+}
+
+.status.comming {
+    border: 1px solid #BC9241;
+    color: #BC9241;
+    background: #bc934123;
+
+}

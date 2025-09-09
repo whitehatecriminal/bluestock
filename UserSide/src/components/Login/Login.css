@@ -1,0 +1,138 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: 500;
+  line-height: 24px;
+  color: #191d23;
+}
+
+form a {
+  float: right;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  margin: 12px 0;
+  border: 1px solid #4b5768;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.blog {
+  display: block;
+  margin: 0 auto 20px;
+  width: 180px;
+}
+
+.password-wrapper {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.passwordinput {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.passwordinput input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eye-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+.rember {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.rember input {
+  width: 20px;
+  height: 20px;
+}
+
+.loginButton {
+  width: 100%;
+  max-width: 400px;
+  height: 48px;
+  border-radius: 4px;
+  background: #685cff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+}
+
+.orsignwith {
+  width: 342px;
+  opacity: 25%;
+  border: 0.5px inset #4b5768;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  margin: 16px auto;
+}
+
+.orsign {
+  background: #999da3;
+  padding: 8px;
+  font-weight: 400;
+  color: #f4f5f7;
+}
+
+.signwithgoogle {
+  width: 100%;
+  max-width: 400px;
+  height: 48px;
+  border-radius: 8px;
+  margin: 12px 0;
+  display: flex;
+  gap: 16px;
+  background-color: #e4e7eb;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.signwithgoogle button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5768;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.createNewAccount {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3f52ff;
+  text-align: center;
+}

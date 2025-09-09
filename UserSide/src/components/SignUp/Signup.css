@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.SignUppdiv {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.Headerside {
+  text-align: center;
+}
+
+.Headerside h2 {
+  font-weight: 700;
+  color: #191d23;
+  margin-top: 20px;
+}
+
+.Headerside img {
+  width: 222px;
+  height: auto;
+  margin-top: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+form input {
+  width: 100%;
+  border: 1px solid #4b5768;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-with-eye {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eye-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+form button {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  background: #5d12d2;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  margin: 16px 0;
+}
+
+.terms {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  margin-top: 5px;
+}
+
+.or {
+  width: 342px;
+  border: 0.5px solid #4b5768;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.orsign {
+  background: #999da3;
+  padding: 8px;
+  font-weight: 400;
+  color: #f4f5f7;
+}
+
+.signwithgoogle {
+  width: 100%;
+  max-width: 400px;
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 16px;
+  background-color: #e4e7eb;
+  justify-content: center;
+  align-items: center;
+}
+
+.signwithgoogle button {
+  background: none;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4b5768;
+  cursor: pointer;
+}
+
+.Already {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
